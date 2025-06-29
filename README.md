@@ -38,7 +38,7 @@ This project analyzes the relationship between bond yields and economic recessio
 
 ## Motivation
 
-Inspired by the New York Fed model, this project uses logistic regression to model recession probability from historical yield spreads. The yield curve has predicted nearly every U.S. recession since 1960.
+Inspired by the New York Fed model, this project uses logistic regression to model recession probability from historical yield spreads. The yield curve has predicted nearly every U.S. recession since 1980.
 
 ## Tech Stack
 
@@ -59,7 +59,7 @@ Inspired by the New York Fed model, this project uses logistic regression to mod
 
 5. The trained model and scaler will be saved in the `outputs/model/` directory.
 
-## 📊 Results and Insights
+##  Results and Insights
 
 ### Key Findings
 
