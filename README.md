@@ -1,35 +1,35 @@
 # Recession Prediction Using Bond Yields
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Recession_BondsYield/
-├── 📊 data/                          # Raw and processed data files
+├──  data/                          # Raw and processed data files
 │   ├── GS10.csv                      # 10-Year Treasury Constant Maturity Rate
 │   ├── GS3M.csv                      # 3-Month Treasury Constant Maturity Rate
 │   ├── USREC.csv                     # US Recession indicator data
 │   └── yield_merged.csv              # Merged dataset for analysis
 │
-├── 📓 notebooks/                     # Jupyter notebooks for analysis
+├──  notebooks/                     # Jupyter notebooks for analysis
 │   ├── 01_explore_and_merge.ipynb    # Data exploration and merging
 │   ├── 02_logistic_modeling.ipynb    # Logistic regression modeling
 │   └── 03_predict_realtime.ipynb     # Real-time prediction implementation
 │
-├── 📁 outputs/                       # Model outputs and artifacts
+├──  outputs/                       # Model outputs and artifacts
 │   └── model/                        # Trained model files
 │       ├── logistic_model.pkl        # Serialized logistic regression model
 │       └── scaler.pkl                # Feature scaler for preprocessing
 │
-├── 📋 requirements.txt               # Python dependencies
-├── 📖 README.md                      # Project documentation
+├──  requirements.txt               # Python dependencies
+├──  README.md                      # Project documentation
 └── .gitignore                        # Git ignore rules
 ```
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project analyzes the relationship between bond yields and economic recessions using machine learning techniques. The analysis focuses on the yield curve (difference between 10-year and 3-month Treasury rates) as a leading indicator for economic downturns.
 
-## 📈 Key Components
+##  Key Components
 
 - **Data Sources**: Federal Reserve Economic Data (FRED) for Treasury yields and recession indicators
 - **Analysis Pipeline**: Three-stage process from exploration to real-time prediction
